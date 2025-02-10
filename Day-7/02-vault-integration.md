@@ -112,7 +112,7 @@ Now you'll need to create an AppRole with appropriate policies and configure its
 
 ```bash
 vault write auth/approle/role/terraform \
-    secret_id_ttl=10m \
+    secret_id_ttl=20m \
     token_num_uses=10 \
     token_ttl=20m \
     token_max_ttl=30m \
